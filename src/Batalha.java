@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
-
 public class Batalha {
+
+
+
+    private
+
+    public Batalha() {
+
+    }
+
+
 }
