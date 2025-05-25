@@ -22,24 +22,31 @@ public class Character {
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
     public String getHouse() {
         return house;
     }
+
     public void setHouse(String house) {
         this.house = house;
     }
+
     public String getSkills() {
         return skills;
     }
+
     public void setSkills(String skills) {
         this.skills = skills;
     }
+
     public Double getHealth() {
         return health;
     }
+
     public void setHealth(Double health) {
         this.health = health;
     }

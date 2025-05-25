@@ -8,7 +8,7 @@ public enum Mottos {
     MARTELL("Unbowed,Unbent,Unbroken"),
     TULLY("Family,Duty,Honor"),
     TYRELL("Growing Strong"),
-    ARRYN("As Higth as Honor"),
+    ARRYN("As High as Honor"),
     BOLTON("Our Blades are Sharp");
 
 
@@ -24,5 +24,7 @@ public enum Mottos {
     public String getDescription() {
         return description;
     }
+
+
 
 }
