@@ -12,9 +12,6 @@ public enum Mottos {
     BOLTON("Our Blades are Sharp");
 
 
-
-
-
     private String description;
 
     Mottos(String description) {

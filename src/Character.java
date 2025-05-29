@@ -2,8 +2,8 @@ public class Character {
 
     private String name;
     private String house;
-    private Double army;
-    private Double health;
+    private Integer army;
+    private Integer health;
     private Mottos motto;
 
 
@@ -11,7 +11,7 @@ public class Character {
 
     }
 
-    public Character(String name,String house,Double army,Double health,Mottos motto) {
+    public Character(String name,String house,Integer army,Integer health,Mottos motto) {
         this.name = name;
         this.house = house;
         this.army = army;
@@ -26,10 +26,10 @@ public class Character {
     public String getHouse() {
         return house;
     }
-    public Double getArmy() {
+    public Integer getArmy() {
         return army;
     }
-    public Double getHealth() {
+    public Integer getHealth() {
         return health;
     }
     public Mottos motto() {
@@ -42,13 +42,37 @@ public class Character {
     public void setHouse(String house) {
         this.house = house;
     }
-    public void setArmy(Double army) {
+    public void setArmy(Integer army) {
         this.army = army;
     }
-    public void setHealth(Double health) {
+    public void setHealth(Integer health) {
         this.health = health;
     }
     public void setMotto(Mottos motto) {
         this.motto = motto;
     }
+
+
+
+    @Override
+    public String toString() {
+        return "Eu sou "+name+"\n "+
+                "da casa "+house+",\n " +
+                "meu exército tem o poder de " +
+                ""+army+" homens,\n"+
+                " e o lema da minha casa é : "+motto.getDescription();
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
